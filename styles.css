@@ -1,0 +1,105 @@
+.root{
+    font-family: Arial;
+}
+
+p,header,footer,span{
+    font-size: 1.95vmin;
+}
+
+h4{
+    font-size: 3vmin !important;
+}
+
+h3{
+    font-size: 3.4vmin !important;
+}
+
+h6{
+    font-size: 1.95vmin !important;
+}
+
+.header-footer{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.title{
+    font-weight: bolder; 
+    font-size: 13.4363vmin;
+    margin-bottom: -15px;
+    margin-top: -40px;
+}
+
+.margin-top{
+    margin-top: 75px;
+}
+
+.bg-nav-color{
+    background-color: rgba(2, 250, 23, 0.288);
+}
+
+.border-top-bottom{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.border-top{
+    border-top: 2px solid black !important;
+}
+
+.date-holder{
+    position: relative;
+    padding: 2px;
+    color: #FFF;
+    background: #a51c1c;
+    font-style: italic;
+    font-weight:600;
+    width: auto;
+    height: 100%;
+}
+
+.date-holder:after {
+    content: " ";
+    position: absolute;
+    padding: 4px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 4px;
+    z-index: -1;
+    background: #ac2424;
+    transform: skewX(10deg);
+}
+
+span.margin{
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:580px){
+    .margin-top{
+        margin-top: 105px;
+    }
+}
+
+@media only screen and (max-width:670px){
+    .title{
+        margin-bottom: 5px;
+        margin-top: -22px;
+    }
+}
+
+@media only screen and (max-width:720px){
+    .title{
+        font-size: 10vmin;
+    }
+}
+
+@media only screen and (max-width:240px){
+    .title{
+        margin-bottom: 5px;
+        margin-top: -16px;
+    }
+}
+
+
+
